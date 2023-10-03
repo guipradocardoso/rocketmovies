@@ -28,36 +28,40 @@ export const Brand = styled.div`
 
 export const Profile = styled.div`
    display: flex;
+   justify-content: flex-end;
    align-items: center;
+   margin-left: 64px;
 
 
    > div {
-      width: 200px;
+      width: 125px;
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      margin-left: 64px;
       margin-right: 9px;
       line-height: 18px;
       padding: 16px 0 ;
 
       strong {
+
          font-size: 14px;
          font-weight: 700;
          color: ${({ theme}) => theme.COLORS.WHITE};
       }
 
-      span {
+      button {
          font-size: 14px;
          font-weight: 400;
          color: ${({ theme}) => theme.COLORS.TEXT_INPUT};
+         background: transparent;
+         border: none;
       }
    }
 
 
    > img {
-      width: 56px;
-      height: 56px;
+      width: 64px;
+      height: 64px;
       border-radius: 50%;
    }
 

@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
 import { Container, Brand, Profile } from "./styles";
 import { Input } from '../../components/Input';
-import { FiPlus, FiSearch } from "react-icons/fi";
+import { FiSearch } from "react-icons/fi";
 
 
 export function Header() {
@@ -16,7 +15,7 @@ export function Header() {
          <Profile to="/profile">
             <div>
                <strong>Guilherme Prado</strong>
-               <span>Sair</span>
+               <button>Sair</button>
             </div>
 
             <img src="https://github.com/guipradocardoso.png" alt="Imagem do usuário" />
