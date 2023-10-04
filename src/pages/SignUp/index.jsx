@@ -36,7 +36,7 @@ export function SignUp() {
             <Button title="Cadastrar" />
 
             <Link to="/">
-               <FiArrowLeft/>
+               <FiArrowLeft />
                Voltar para o login
             </Link>
          </Form>

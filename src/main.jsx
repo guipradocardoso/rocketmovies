@@ -7,7 +7,6 @@ import theme from './styles/theme';
 import { Routes } from './routes';
 
 
-import { CreateMovie } from './pages/CreateMovie';
 import { SignIn } from './pages/SignIn';
 import { SignUp } from './pages/SignUp';
 

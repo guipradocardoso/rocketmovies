@@ -41,8 +41,16 @@ export const Form = styled.form`
    }
 
    > a {
+      display: flex;
       margin-top: 42px;
+      align-items: center;
       color: ${({ theme }) => theme.COLORS.BRAND_COLOR};
+
+      svg {
+         width: 16px;
+         height: 16px;
+         margin-right: 8px;
+      }
 
    }
 

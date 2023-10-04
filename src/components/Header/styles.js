@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { Link } from "react-router-dom";
+
 export const Container = styled.div`
    display: flex;
    align-items: center;
@@ -26,7 +28,7 @@ export const Brand = styled.div`
 
 `
 
-export const Profile = styled.div`
+export const Profile = styled(Link)`
    display: flex;
    justify-content: flex-end;
    align-items: center;
@@ -49,7 +51,7 @@ export const Profile = styled.div`
          color: ${({ theme}) => theme.COLORS.WHITE};
       }
 
-      button {
+      a {
          font-size: 14px;
          font-weight: 400;
          color: ${({ theme}) => theme.COLORS.TEXT_INPUT};
